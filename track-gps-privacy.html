@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy - Track Gps (Track Gps for Spytec GL300)</title>
+    <style>
+        :root {
+            --bg-main: #0E1014;
+            --bg-card: #161922;
+            --bg-elevated: #212630;
+            --border-color: #2D3340;
+            --accent-yellow: #FACC15;
+            --accent-emerald: #10B981;
+            --text-primary: #F8FAFC;
+            --text-secondary: #94A3B8;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-main);
+            color: var(--text-primary);
+            line-height: 1.7;
+            padding: 24px 16px 60px;
+        }
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+        }
+        header {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 28px;
+            margin-bottom: 24px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+        }
+        .brand-badge {
+            display: inline-block;
+            background: rgba(250, 204, 21, 0.14);
+            color: var(--accent-yellow);
+            border: 1px solid rgba(250, 204, 21, 0.35);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 12px;
+            border-radius: 999px;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+        h1 {
+            font-size: 26px;
+            font-weight: 800;
+            color: var(--text-primary);
+        }
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 14px;
+            margin-top: 4px;
+        }
+        .lang-switch {
+            display: flex;
+            gap: 8px;
+        }
+        .lang-btn {
+            background: var(--bg-elevated);
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+            padding: 8px 16px;
+            border-radius: 12px;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 13px;
+            transition: all 0.2s ease;
+        }
+        .lang-btn.active {
+            background: var(--accent-yellow);
+            color: #0E1014;
+            border-color: var(--accent-yellow);
+        }
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 18px;
+            padding: 24px;
+            margin-bottom: 18px;
+        }
+        h2 {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--accent-yellow);
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        p {
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+            font-size: 15px;
+        }
+        ul {
+            padding-inline-start: 22px;
+            color: var(--text-secondary);
+            font-size: 15px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        strong {
+            color: var(--text-primary);
+        }
+        a {
+            color: var(--accent-yellow);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .contact-box {
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.35);
+            border-radius: 14px;
+            padding: 16px;
+            margin-top: 12px;
+        }
+        .hidden {
+            display: none;
+        }
+        footer {
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            margin-top: 32px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <div>
+            <span class="brand-badge">OFFICIAL PRIVACY POLICY</span>
+            <h1>Track Gps — Track Gps for Spytec GL300</h1>
+            <div class="subtitle">Package ID: com.globaltrack.vehiclelocator | Effective Date: November 1, 2026</div>
+        </div>
+        <div class="lang-switch">
+            <button id="btn-en" class="lang-btn active" onclick="setLang('en')">English</button>
+            <button id="btn-ar" class="lang-btn" onclick="setLang('ar')">العربية</button>
+        </div>
+    </header>
+
+    <!-- ==================== ENGLISH SECTION ==================== -->
+    <div id="section-en" dir="ltr">
+        <div class="card">
+            <h2>1. Introduction & Overview</h2>
+            <p>
+                Welcome to <strong>Track Gps</strong> (listed on Google Play as <strong>Track Gps for Spytec GL300</strong>, package identifier <code>com.globaltrack.vehiclelocator</code>). We respect your privacy and are committed to complete transparency regarding how our application operates.
+            </p>
+            <p>
+                <strong>Track Gps</strong> is a dedicated companion interface designed to help users monitor external GPS hardware trackers (such as Spytec GL300, Coban TK303/TK103, Sinotrack ST-901, Concox GT06N, and Teltonika FMB920). The application is 100% free to use, contains no third-party advertising networks, and never sells or rents user data.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>2. Information We Process & Device Permissions</h2>
+            <p>To deliver live telemetry, route history, and safety alerts, the app requests only the minimum necessary Android permissions:</p>
+            <ul>
+                <li>
+                    <strong>Camera Permission (<code>android.permission.CAMERA</code>):</strong>
+                    Used strictly on-demand when you choose to scan the 15-digit IMEI barcode printed on your physical GPS hardware unit. Image frames are processed locally in real time on your device using Google ML Kit Barcode Scanning and are <strong>never recorded, stored, or uploaded</strong> to any server.
+                </li>
+                <li>
+                    <strong>Location Permission (<code>ACCESS_FINE_LOCATION</code> / <code>ACCESS_COARSE_LOCATION</code>):</strong>
+                    Optional. Used only while the app is open on screen if you choose to display your phone's current position as a reference point on the map alongside your vehicle's hardware tracker. Your phone's GPS coordinates are <strong>never transmitted to or stored on external servers</strong>.
+                </li>
+                <li>
+                    <strong>Network & Internet Access (<code>INTERNET</code> / <code>ACCESS_NETWORK_STATE</code>):</strong>
+                    Used to retrieve telemetry coordinates (latitude, longitude, speed, heading, and timestamps) linked to your bound hardware tracker's IMEI and to load map tiles from OpenStreetMap.
+                </li>
+                <li>
+                    <strong>Foreground Service & Notifications (<code>FOREGROUND_SERVICE</code> / <code>POST_NOTIFICATIONS</code>):</strong>
+                    Used only when you enable real-time Speed Limit Alerts or Geofence Zone Alerts, allowing the app to notify you immediately if your vehicle exceeds your configured speed threshold or exits a designated perimeter.
+                </li>
+                <li>
+                    <strong>Storage (<code>WRITE_EXTERNAL_STORAGE</code> up to Android 9 / API 28):</strong>
+                    Used solely when you explicitly export trip history reports (CSV/JSON) to your handset's local storage.
+                </li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>3. How Your Data Is Stored & Protected</h2>
+            <ul>
+                <li><strong>Local On-Device Storage:</strong> Your custom vehicle names, speed thresholds, geofence circles, and cached trip logs are stored locally on your smartphone inside an internal SQLite (Room) database and Android SharedPreferences.</li>
+                <li><strong>Hardware Identifier (IMEI):</strong> The 15-digit IMEI number of your GPS tracker is used solely to query your tracker's telemetry stream from the tracking gateway over encrypted HTTPS connections.</li>
+                <li><strong>Zero Personal Profiling:</strong> We do not require account registration, full names, phone numbers, contacts, or payment information to use the app.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>4. Data Sharing & Third-Party Services</h2>
+            <p>We do <strong>not</strong> sell, trade, or share your personal data or vehicle telemetry with advertisers, data brokers, or unauthorized third parties. The app interacts only with:</p>
+            <ul>
+                <li><strong>OpenStreetMap (osmdroid):</strong> To display street and satellite map tiles on your screen.</li>
+                <li><strong>Google ML Kit (On-Device):</strong> For local barcode recognition when scanning your tracker's IMEI label.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>5. Data Retention & User Control (Right to Delete)</h2>
+            <p>You have full, immediate control over your data directly inside the app:</p>
+            <ul>
+                <li><strong>Unlink Hardware Unit:</strong> Tapping <em>"Detach Hardware Unit from App"</em> in the Settings Console immediately removes the bound IMEI from your device.</li>
+                <li><strong>Wipe Telemetry History:</strong> You can clear all cached route points, speed alerts, and geofence logs at any time from the History or Settings screen, or by clearing the app storage in Android Settings.</li>
+                <li><strong>Deletion Requests:</strong> You may also request deletion of any server-side telemetry buffer associated with your hardware IMEI by contacting us via email.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>6. Children's Privacy</h2>
+            <p>
+                Our application is a vehicle management utility intended for adult vehicle owners and fleet operators. We do not knowingly collect any personal information from children under the age of 13.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>7. Contact Us</h2>
+            <p>If you have any questions, concerns, or data deletion inquiries regarding this Privacy Policy or <strong>Track Gps</strong>, please contact our support team:</p>
+            <div class="contact-box">
+                <strong>Developer Support Email:</strong> <a href="mailto:corporate.yh@gmail.com">corporate.yh@gmail.com</a><br />
+                <strong>Application Name:</strong> Track Gps (Track Gps for Spytec GL300)<br />
+                <strong>Package Name:</strong> com.globaltrack.vehiclelocator
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== ARABIC SECTION ==================== -->
+    <div id="section-ar" class="hidden" dir="rtl">
+        <div class="card">
+            <h2>1. مقدمة ونظرة عامة</h2>
+            <p>
+                مرحباً بك في تطبيق <strong>Track Gps</strong> (المدرج على متجر Google Play باسم <strong>Track Gps for Spytec GL300</strong> ومعرف الحزمة <code>com.globaltrack.vehiclelocator</code>). نحن نولي خصوصية بياناتك وأمانها الأولوية القصوى ونلتزم بالشفافية الكاملة حول آلية عمل التطبيق.
+            </p>
+            <p>
+                تطبيق <strong>Track Gps</strong> هو أداة مخصصة لربط ومراقبة أجهزة التتبع الخارجي للمركبات (مثل Spytec GL300، وCoban، وSinotrack، وConcox، وTeltonika). التطبيق مجاني بالكامل (100%)، ولا يبيع أو يؤجر بيانات المستخدمين لأي طرف ثالث.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>2. الصلاحيات والبيانات التي يعالجها التطبيق</h2>
+            <p>لتقديم ميزات التتبع المباشر، وسجل المسارات، وتنبيهات الأمان، يطلب التطبيق الحد الأدنى فقط من الصلاحيات الضرورية:</p>
+            <ul>
+                <li>
+                    <strong>صلاحية الكاميرا (<code>android.permission.CAMERA</code>):</strong>
+                    تُستخدم حصرياً عند رغبتك في مسح باركود رقم الـ IMEI (المكون من 15 رقماً) المطبوع على جهاز التتبع. تتم معالجة الصورة محلياً داخل هاتفك في الوقت الفعلي عبر مكتبة Google ML Kit، <strong>ولا يتم التقاط أو حفظ أو رفع أي صور أو فيديو</strong> إلى أي خادم خارجي.
+                </li>
+                <li>
+                    <strong>صلاحية الموقع الجغرافي (<code>ACCESS_FINE_LOCATION</code> / <code>ACCESS_COARSE_LOCATION</code>):</strong>
+                    اختيارية؛ تُستخدم فقط أثناء فتح الخريطة إذا اخترت إظهار موقع هاتفك كنقطة مرجعية بجانب موقع مركبتك. <strong>لا يقوم التطبيق بتتبع موقع هاتفك في الخلفية ولا يرسل إحداثيات هاتفك إلى أي خادم</strong>.
+                </li>
+                <li>
+                    <strong>الاتصال بالإنترنت (<code>INTERNET</code>):</strong>
+                    يُستخدم لجلب إحداثيات جهاز التتبع المربوط (خط الطول، دائرة العرض، السرعة، والاتجاه) وتحميل مربعات الخرائط من OpenStreetMap.
+                </li>
+                <li>
+                    <strong>الإشعارات والخدمة الأمامية (<code>FOREGROUND_SERVICE</code> / <code>POST_NOTIFICATIONS</code>):</strong>
+                    تُستخدم لتنبيهك فورياً عند تجاوز المركبة للسرعة المحددة أو خروجها من نطاق السياج الجغرافي الآمن الذي قمت بإعداده.
+                </li>
+                <li>
+                    <strong>التخزين المحلي (<code>WRITE_EXTERNAL_STORAGE</code> للأجهزة القديمة حتى Android 9):</strong>
+                    يُستخدم فقط عندما تطلب بنفسك تصدير وحفظ ملفات سجل الرحلات على هاتفك.
+                </li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>3. تخزين البيانات وحمايتها</h2>
+            <ul>
+                <li><strong>التخزين المحلي على الهاتف:</strong> يتم حفظ أسماء المركبات، وحدود السرعة، وإعدادات السياج الجغرافي، وسجل الرحلات محلياً داخل قاعدة بيانات الهاتف الداخلية (Room SQLite).</li>
+                <li><strong>معرف الجهاز (IMEI):</strong> يُستخدم رقم الـ IMEI الخاص بجهاز الـ GPS حصرياً للاستعلام عن إحداثيات المركبة عبر اتصال مشفر.</li>
+                <li><strong>عدم جمع بيانات شخصية:</strong> لا يطلب التطبيق إنشاء حساب شخصي، أو إدخال اسمك، أو رقم هاتفك، أو جهات اتصالك، أو أي بيانات بنكية.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>4. مشاركة البيانات والأطراف الثالثة</h2>
+            <p>نحن <strong>لا نبيع ولا نشارك</strong> بياناتك أو مسارات مركبتك مع أي شركات إعلانية أو وسطاء بيانات. يتعامل التطبيق تقنياً فقط مع:</p>
+            <ul>
+                <li><strong>خرائط OpenStreetMap:</strong> لعرض الخرائط التفاعلية على شاشة التطبيق.</li>
+                <li><strong>مكتبة Google ML Kit (محلياً على الجهاز):</strong> لقراءة باركود الـ IMEI عند المسح بالكاميرا.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>5. الاحتفاظ بالبيانات وحق الحذف والمسح</h2>
+            <p>يمتلك المستخدم تحكماً كاملاً وفورياً في بياناته من داخل التطبيق:</p>
+            <ul>
+                <li><strong>فك ارتباط الجهاز:</strong> يمكنك الضغط على زر <em>"فصل الجهاز عن التطبيق"</em> في شاشة الإعدادات لإزالة رقم الـ IMEI فوراً.</li>
+                <li><strong>مسح السجلات:</strong> يمكنك حذف كافة المسارات والتنبيهات المحفوظة في أي وقت من داخل التطبيق أو عبر مسح بيانات التطبيق من إعدادات الهاتف.</li>
+                <li><strong>طلب حذف البيانات عبر البريد:</strong> يمكنك مراسلتنا في أي وقت لطلب مسح أي بيانات مرتبطة برقم الـ IMEI الخاص بجهازك.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>6. خصوصية الأطفال</h2>
+            <p>
+                هذا التطبيق مخصص لأصحاب المركبات ومديري الأساطيل البالغين، ولا يجمع عن قصد أي بيانات من الأطفال دون سن 13 عاماً.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>7. التواصل معنا</h2>
+            <p>إذا كان لديك أي استفسار بخصوص سياسة الخصوصية أو تطبيق <strong>Track Gps</strong>، يسعدنا تواصلك معنا عبر البريد الرسمي للمطور:</p>
+            <div class="contact-box">
+                <strong>بريد الدعم الفني للمطور:</strong> <a href="mailto:corporate.yh@gmail.com">corporate.yh@gmail.com</a><br />
+                <strong>اسم التطبيق:</strong> Track Gps (Track Gps for Spytec GL300)<br />
+                <strong>معرف الحزمة:</strong> com.globaltrack.vehiclelocator
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 Track Gps. All rights reserved. | Contact: <a href="mailto:corporate.yh@gmail.com">corporate.yh@gmail.com</a>
+    </footer>
+</div>
+
+<script>
+    function setLang(lang) {
+        const enSection = document.getElementById('section-en');
+        const arSection = document.getElementById('section-ar');
+        const btnEn = document.getElementById('btn-en');
+        const btnAr = document.getElementById('btn-ar');
+
+        if (lang === 'ar') {
+            enSection.classList.add('hidden');
+            arSection.classList.remove('hidden');
+            btnAr.classList.add('active');
+            btnEn.classList.remove('active');
+        } else {
+            arSection.classList.add('hidden');
+            enSection.classList.remove('hidden');
+            btnEn.classList.add('active');
+            btnAr.classList.remove('active');
+        }
+    }
+</script>
+</body>
+</html>
