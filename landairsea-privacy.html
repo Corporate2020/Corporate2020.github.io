@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - LandAirSea GPS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #F8FAFC;
+            --surface-color: #FFFFFF;
+            --primary: #EA580C;
+            --primary-light: #FFF7ED;
+            --primary-border: #FDBA74;
+            --text-dark: #0F172A;
+            --text-muted: #475569;
+            --text-light: #94A3B8;
+            --border-color: #E2E8F0;
+            --card-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05);
+            --danger-bg: #FEF2F2;
+            --danger-text: #DC2626;
+            --success-bg: #F0FDF4;
+            --success-text: #16A34A;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-dark);
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+        }
+
+        /* Top Header */
+        .header {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .brand-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background-color: var(--primary-light);
+            color: var(--primary);
+            border: 1px solid var(--primary-border);
+            padding: 6px 16px;
+            border-radius: 9999px;
+            font-weight: 700;
+            font-size: 13px;
+            margin-bottom: 12px;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            font-weight: 800;
+            color: var(--text-dark);
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+        }
+
+        .header p {
+            color: var(--text-muted);
+            font-size: 14px;
+        }
+
+        /* Language Switcher */
+        .lang-switch-wrapper {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        .lang-switcher {
+            background-color: #E2E8F0;
+            padding: 4px;
+            border-radius: 12px;
+            display: inline-flex;
+            gap: 4px;
+        }
+
+        .lang-btn {
+            border: none;
+            background: transparent;
+            padding: 8px 18px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 700;
+            color: var(--text-muted);
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .lang-btn.active {
+            background-color: var(--surface-color);
+            color: var(--primary);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+
+        /* Content Cards */
+        .card {
+            background-color: var(--surface-color);
+            border: 1px solid var(--border-color);
+            border-radius: 18px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: var(--card-shadow);
+            transition: transform 0.2s ease;
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 14px;
+        }
+
+        .card-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            background-color: var(--primary-light);
+            color: var(--primary);
+        }
+
+        .card-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text-dark);
+        }
+
+        .card-body {
+            color: var(--text-muted);
+            font-size: 14.5px;
+            line-height: 1.7;
+        }
+
+        .badge-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 14px;
+        }
+
+        .badge-item {
+            padding: 8px 14px;
+            border-radius: 10px;
+            font-size: 13px;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .badge-danger {
+            background-color: var(--danger-bg);
+            color: var(--danger-text);
+        }
+
+        .badge-success {
+            background-color: var(--success-bg);
+            color: var(--success-text);
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 25px;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-light);
+            font-size: 13px;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, #FFF7ED 0%, #FFFFFF 100%);
+            border: 1px solid var(--primary-border);
+            text-align: center;
+            padding: 30px;
+            border-radius: 18px;
+            margin-top: 30px;
+        }
+
+        .contact-btn {
+            display: inline-block;
+            background-color: var(--primary);
+            color: #FFFFFF;
+            text-decoration: none;
+            padding: 12px 28px;
+            border-radius: 12px;
+            font-weight: 700;
+            font-size: 14px;
+            margin-top: 14px;
+            transition: opacity 0.2s;
+        }
+
+        .contact-btn:hover {
+            opacity: 0.9;
+        }
+
+        /* Language visibility */
+        .content-de { display: none; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Brand Header -->
+    <div class="header">
+        <div class="brand-badge">🛰️ LandAirSea GPS</div>
+        <h1 id="page-title">Privacy Policy & Data Governance</h1>
+        <p id="page-sub">Last updated: November 2026 • Effective Immediately</p>
+    </div>
+
+    <!-- Language Selector -->
+    <div class="lang-switch-wrapper">
+        <div class="lang-switcher">
+            <button class="lang-btn active" onclick="switchLanguage('en')">English (EN)</button>
+            <button class="lang-btn" onclick="switchLanguage('de')">Deutsch (DE)</button>
+        </div>
+    </div>
+
+    <!-- ==================== ENGLISH CONTENT ==================== -->
+    <div id="content-en" class="content-en">
+
+        <!-- Card 1: Overview -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-icon">🛡️</div>
+                <div class="card-title">1. Introduction & Overview</div>
+            </div>
+            <div class="card-body">
+                <strong>LandAirSea GPS</strong> is an independent tracking and fleet management interface engineered to communicate directly with external GPS hardware (including LandAirSea 54, Overdrive, Sync OBD-II, and open Traccar-compatible trackers).
+                We respect your privacy and believe in full transparency. This application does not require personal user accounts, phone numbers, or passwords.
+            </div>
+        </div>
+
+        <!-- Card 2: What We Do NOT Collect -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-icon">🚫</div>
+                <div class="card-title">2. What We DO NOT Collect</div>
+            </div>
+            <div class="card-body">
+                We design our architecture around minimal data retention. We explicitly do not collect, harvest, or monetize:
+                <div class="badge-list">
+                    <span class="badge-item badge-danger">✕ No Personal Names or Passwords</span>
+                    <span class="badge-item badge-danger">✕ No Phone Contacts or Address Books</span>
+                    <span class="badge-item badge-danger">✕ No Phone Stored Photos or Media</span>
+                    <span class="badge-item badge-danger">✕ No Location of the Smartphone Itself</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3: What We Process -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-icon">📋</div>
+                <div class="card-title">3. Data Processed to Deliver Tracking</div>
+            </div>
+            <div class="card-body">
+                To enable live satellite tracking, the app processes the following limited data points:
+                <div class="badge-list">
+                    <span class="badge-item badge-success">✓ External Tracker 15-Digit IMEI</span>
+                    <span class="badge-item badge-success">✓ External Hardware GPS Coordinates</span>
+                    <span class="badge-item badge-success">✓ Hardware Speed, Battery & Ignition State</span>
+                </div>
+                <br>
+                <em>All hardware telemetry belongs entirely to your designated tracking asset. You can clear local cached maps or unlink your device at any moment.</em>
+            </div>
+        </div>
+
+        <!-- Card 4: Device Permissions -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-icon">⚙️</div>
+                <div class="card-title">4. Device Permissions & Explanation</div>
+            </div>
+            <div class="card-body">
+                The application requests only strictly necessary Android system permissions:
+                <br><br>
+                • <strong>Camera:</strong> Used strictly on-device to read the 15-digit barcode on the back of your LandAirSea tracker during setup. No photos or video recordings are saved or uploaded.<br>
+                • <strong>Notifications:</strong> Used solely to alert you instantly when a vehicle triggers an overspeed event or leaves an InstaFence safety perimeter.<br>
+                • <strong>Internet Access:</strong> Required to fetch map imagery and stream coordinates from the GPS gateway.
+            </div>
+        </div>
+
+        <!-- Card 5: Advertising -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-icon">📢</div>
+                <div class="card-title">5. Advertising (Google AdMob)</div>
+            </div>
+            <div class="card-body">
+                To keep all advanced tracking tools, real-time map rendering, and trip analytics 100% free without paid subscriptions, the app displays advertisements served by <strong>Google AdMob</strong>.
+                AdMob may use standardized mobile advertising identifiers in compliance with Google Play Policies. You can manage personalized ad preferences via your Android device settings.
+            </div>
+        </div>
+
+        <!-- Card 6: User Rights & Contact -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-icon">📬</div>
+                <div class="card-title">6. User Control & Support Contact</div>
+            </div>
+            <div class="card-body">
+                You maintain complete sovereignty over your setup: you can unlink your vehicle, flush the offline tile cache, or link your tracker to a private gateway host anytime in the preferences menu.
+            </div>
+        </div>
+
+        <div class="contact-box">
+            <h3>Have Questions or Privacy Concerns?</h3>
+            <p>Our dedicated support team is available to assist you with any inquiries:</p>
+            <a href="mailto:corporate.yh@gmail.com" class="contact-btn">corporate.yh@gmail.com</a>
+        </div>
+
+    </div>
+
+    <!-- ==================== GERMAN CONTENT ==================== -->
+    <div id="content-de" class="content-de">
+
+        <!-- Card 1: Overview DE -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-icon">🛡️</div>
+                <div class="card-title">1. Einführung & Überblick</div>
+            </div>
+            <div class="card-body">
+                <strong>LandAirSea GPS</strong> ist eine unabhängige Anwendung zur Fahrzeugortung und Verwaltung externer GPS-Tracker (wie LandAirSea 54, Overdrive, Sync OBD-II und Traccar-kompatibler Geräte).
+                Wir schützen Ihre Privatsphäre: Die Nutzung erfordert weder Registrierungen noch persönliche Kontodaten oder Passwörter.
+            </div>
+        </div>
+
+        <!-- Card 2: What We Do NOT Collect DE -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-icon">🚫</div>
+                <div class="card-title">2. Was wir NICHT erfassen</div>
+            </div>
+            <div class="card-body">
+                Unsere Systemarchitektur basiert auf minimaler Datenspeicherung. Wir sammeln und verkaufen ausdrücklich keine:
+                <div class="badge-list">
+                    <span class="badge-item badge-danger">✕ Keine Namen oder Passwörter</span>
+                    <span class="badge-item badge-danger">✕ Keine Kontakte oder Adressbücher</span>
+                    <span class="badge-item badge-danger">✕ Keine privaten Fotos oder Gerätedateien</span>
+                    <span class="badge-item badge-danger">✕ Kein eigener Standort Ihres Smartphones</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3: What We Process DE -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-icon">📋</div>
+                <div class="card-title">3. Verarbeitete Tracking-Daten</div>
+            </div>
+            <div class="card-body">
+                Für die satellitengestützte Ortung werden ausschließlich zweckgebundene Gerätedaten verarbeitet:
+                <div class="badge-list">
+                    <span class="badge-item badge-success">✓ 15-stellige IMEI des externen Trackers</span>
+                    <span class="badge-item badge-success">✓ GPS-Koordinaten des externen Fahrzeugs</span>
+                    <span class="badge-item badge-success">✓ Geschwindigkeit, Zünd- und Akkustatus</span>
+                </div>
+                <br>
+                <em>Alle Telemetriedaten beziehen sich auf Ihr externes Tracking-Gerät. Sie können den lokalen Cache jederzeit leeren oder das Gerät entkoppeln.</em>
+            </div>
+        </div>
+
+        <!-- Card 4: Device Permissions DE -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-icon">⚙️</div>
+                <div class="card-title">4. Erläuterung der Geräteberechtigungen</div>
+            </div>
+            <div class="card-body">
+                Die App verwendet ausschließlich technisch notwendige Systemberechtigungen:
+                <br><br>
+                • <strong>Kamera:</strong> Wird ausschließlich lokal genutzt, um den 15-stelligen Barcode auf der Rückseite des Trackers zu scannen. Es werden keine Bilder gespeichert oder übertragen.<br>
+                • <strong>Benachrichtigungen:</strong> Ausschließlich für sofortige Warnmeldungen bei Geschwindigkeitsüberschreitungen oder beim Verlassen des InstaFence-Sicherheitsbereichs.<br>
+                • <strong>Internetzugriff:</strong> Notwendig zum Laden von Kartenkacheln und für den Empfang der Tracker-Koordinaten.
+            </div>
+        </div>
+
+        <!-- Card 5: Advertising DE -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-icon">📢</div>
+                <div class="card-title">5. Werbung (Google AdMob)</div>
+            </div>
+            <div class="card-body">
+                Damit alle Ortungsfunktionen und Fahrtenanalysen dauerhaft 100% kostenfrei ohne Abonnements zur Verfügung stehen, nutzt die App <strong>Google AdMob</strong> zur Werbeeinblendung.
+                AdMob verarbeitet Standard-Werbe-IDs im Einklang mit den Google Play-Richtlinien.
+            </div>
+        </div>
+
+        <!-- Card 6: User Rights & Contact DE -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-icon">📬</div>
+                <div class="card-title">6. Datenkontrolle & Kontakt</div>
+            </div>
+            <div class="card-body">
+                Sie behalten jederzeit die volle Kontrolle: Sie können Ihren Tracker in den Optionen entkoppeln, den Kartenspeicher leeren oder eigene Server eintragen.
+            </div>
+        </div>
+
+        <div class="contact-box">
+            <h3>Fragen zum Datenschutz oder Support?</h3>
+            <p>Unser Support-Team steht Ihnen bei Fragen gerne zur Verfügung:</p>
+            <a href="mailto:corporate.yh@gmail.com" class="contact-btn">corporate.yh@gmail.com</a>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        &copy; 2026 LandAirSea GPS. All rights reserved. • Strictly Compliant with Google Play Developer Policies.
+    </div>
+
+</div>
+
+<script>
+    function switchLanguage(lang) {
+        const enContent = document.getElementById('content-en');
+        const deContent = document.getElementById('content-de');
+        const title = document.getElementById('page-title');
+        const sub = document.getElementById('page-sub');
+        const buttons = document.querySelectorAll('.lang-btn');
+
+        buttons.forEach(btn => btn.classList.remove('active'));
+
+        if (lang === 'de') {
+            enContent.style.display = 'none';
+            deContent.style.display = 'block';
+            title.textContent = 'Datenschutzerklärung & Richtlinien';
+            sub.textContent = 'Zuletzt aktualisiert: November 2026 • Sofort gültig';
+            buttons[1].classList.add('active');
+            document.documentElement.lang = 'de';
+        } else {
+            deContent.style.display = 'none';
+            enContent.style.display = 'block';
+            title.textContent = 'Privacy Policy & Data Governance';
+            sub.textContent = 'Last updated: November 2026 • Effective Immediately';
+            buttons[0].classList.add('active');
+            document.documentElement.lang = 'en';
+        }
+    }
+</script>
+
+</body>
+</html>
